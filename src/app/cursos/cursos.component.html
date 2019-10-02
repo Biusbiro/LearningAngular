@@ -1,4 +1,8 @@
-<p>cursos works!</p>
-
+<p>Lista de Cursos {{ nomeCurso }}</p>
 <app-curso-detalhe></app-curso-detalhe>
-<P>test</P>
+
+<ul>
+    <li *ngFor="let curso of cursos">
+        {{ curso }}
+    </li>
+</ul>
