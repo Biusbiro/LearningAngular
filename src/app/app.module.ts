@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { TableGreenComponent } from './table-green/table-green.component';
 import { TableBlueComponent } from './table-blue/table-blue.component';
 import { TableRedComponent } from './table-red/table-red.component';
+import { CursosModule } from './cursos/cursos.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TableRedComponent } from './table-red/table-red.component';
     TableRedComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
